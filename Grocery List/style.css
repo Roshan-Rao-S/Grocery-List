@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body{
+    padding: 20px;
+}
+
+.container{
+    border: 12px solid black;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;}
+
+.listsof h3{
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
+.listsof input{
+    padding: 2px;
+    font-size: 2rem;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px double black;
+    width: 100%;
+    max-width: fit-content;
+}
+
+#pencilsize{
+    font-size: 2rem;
+    padding:15px ;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:375px) {
+    .container{
+        border: 12px solid black;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        min-height: 100vh;}
+
+    .listsof h3{
+        font-size: 1rem;
+        text-decoration: underline;
+    }
+    .listsof input{
+        font-size: 1rem;
+        border: 0;
+        outline: 0;
+        border-bottom: 2px double black;
+        width: 100%;
+        max-width: max-content;
+    }
+    #pencilsize{
+        font-size: 1rem;
+        padding:5px ;
+    cursor: pointer;
+    }
+    
+    
+}
